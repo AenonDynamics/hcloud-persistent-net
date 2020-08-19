@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: MPL-2.0
+#
+# @package hcloud-persistent-net
+
+[Match]
+Virtualization=true
+Driver=virtio_net
+
+# first ethernet device used for wan conneciton
+# - legacy intel: pci-0000:00:03.0
+# - amd epyc:     pci-0000:01:00.0
+Path=pci-0000:00:03.0 pci-0000:01:00.0
+
+[Link]
+Name=wan
