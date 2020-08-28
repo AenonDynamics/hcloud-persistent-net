@@ -7,9 +7,9 @@ Virtualization=true
 Driver=virtio_net
 
 # third ethernet device (cloud network 2)
-# - legacy intel: pci-0000:00:0b:0
-# - amd epyc:     pci-0000:08:00:0
-Path=pci-0000:00:0b:0 pci-0000:08:00:0
+# - legacy intel: pci-0000:00:0b.0
+# - amd epyc:     pci-0000:08:00.0
+Path=pci-0000:00:0b.0 pci-0000:08:00.0
 
 [Link]
 Name=net1
