@@ -1,6 +1,6 @@
 {
     "name": "hcloud-persistent-net",
-    "version": "0.1.1",
+    "version": "1.0.0",
     "package-monster": "0.4.0",
     "description": "persistent network interface names for hetzner cloud",
     "license": "MPL-2.0",

@@ -3,12 +3,12 @@
 # @package hcloud-persistent-net
 
 [Match]
-Virtualization=true
 Driver=virtio_net
 
 # second ethernet device (cloud network 1)
 # - legacy intel: pci-0000:00:0a.0
 # - amd epyc:     pci-0000:07:00.0
+# - arm64:        pci-0000:07:00.0
 Path=pci-0000:00:0a.0 pci-0000:07:00.0
 
 [Link]

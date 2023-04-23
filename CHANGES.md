@@ -1,3 +1,8 @@
+
+### 1.0.0 ###
+
+* Added: support for new hetzner ARM64 CAX cloud servers - `Virtualization` check is removed from link files (covered via virtio_net driver match)
+
 ## PRELIMINARY ##
 
 ### 0.1.1 ###
