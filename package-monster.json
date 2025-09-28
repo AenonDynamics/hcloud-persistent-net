@@ -1,6 +1,6 @@
 {
     "name": "hcloud-persistent-net",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "package-monster": "0.4.0",
     "description": "persistent network interface names for hetzner cloud",
     "license": "MPL-2.0",
@@ -22,19 +22,19 @@
         "files": [
             {
                 "src": "systemd/10-hcloud-wan.link",
-                "dst": "/lib/systemd/network/10-hcloud-wan.link"
+                "dst": "/usr/lib/systemd/network/10-hcloud-wan.link"
             },
             {
                 "src": "systemd/10-hcloud-net0.link",
-                "dst": "/lib/systemd/network/10-hcloud-net0.link"
+                "dst": "/usr/lib/systemd/network/10-hcloud-net0.link"
             },
             {
                 "src": "systemd/10-hcloud-net1.link",
-                "dst": "/lib/systemd/network/10-hcloud-net1.link"
+                "dst": "/usr/lib/systemd/network/10-hcloud-net1.link"
             },
             {
                 "src": "systemd/10-hcloud-net2.link",
-                "dst": "/lib/systemd/network/10-hcloud-net2.link"
+                "dst": "/usr/lib/systemd/network/10-hcloud-net2.link"
             }
         ],
 
